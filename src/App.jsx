@@ -46,14 +46,14 @@ function SplashScreen() {
             color: "white", letterSpacing: "-1px",
             fontFamily: "'Inter', system-ui, sans-serif"
           }}>
-            Compli<span style={{ color: "#E07B39" }}>Q</span>
+            Polic<span style={{ color: "#E07B39" }}>IQ</span>
           </div>
           <div style={{
             fontSize: "13px", color: "#64748B",
             letterSpacing: "3px", textTransform: "uppercase",
             marginTop: "6px"
           }}>
-            Compliance, Simplified.
+            Policy Intelligence, Simplified.
           </div>
         </div>
 
@@ -107,10 +107,10 @@ function Logo() {
       }}>Q</div>
       <div>
         <div style={{ fontWeight: "800", fontSize: "20px", color: "white", letterSpacing: "-0.5px" }}>
-          Compli<span style={{ color: "#E07B39" }}>Q</span>
+          Polic<span style={{ color: "#E07B39" }}>IQ</span>
         </div>
         <div style={{ fontSize: "11px", color: "#64748B", letterSpacing: "1.5px", textTransform: "uppercase" }}>
-          Compliance, Simplified.
+          Policy Intelligence, Simplified.
         </div>
       </div>
     </div>
@@ -360,7 +360,7 @@ setUploading(false);
             }}>
               <div style={{ fontSize: "48px" }}>⚖️</div>
               <div style={{ fontSize: "20px", fontWeight: "700", color: "white" }}>
-                Welcome to CompliQ
+                Welcome to PolicIQ
               </div>
               <div style={{ fontSize: "14px", color: "#64748B", textAlign: "center", maxWidth: "400px" }}>
                 Upload a compliance document and instantly query it with AI. No more searching through hundreds of pages.
@@ -476,7 +476,7 @@ setUploading(false);
               opacity: !uploaded || !question.trim() || loading ? 0.5 : 1,
               whiteSpace: "nowrap"
             }}>
-            Ask CompliQ →
+            Ask PolicIQ →
           </button>
         </div>
       </div>
