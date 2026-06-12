@@ -93,7 +93,7 @@ function SplashScreen() {
   );
 }
 
-const API_URL = "http://127.0.0.1:8000";
+const API_URL = "https://suspect-maturely-scholar.ngrok-free.dev";
 
 function Logo() {
   return (
